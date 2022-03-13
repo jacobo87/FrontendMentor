@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 * {
     margin: 10px;
     padding: 10px;
@@ -6,7 +6,7 @@
 
 body {
     background-color: hsl(212, 45%, 89%);
-    font-family: 'Outfit', sans-serif;
+    font-family: "Outfit", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,27 +17,29 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 25%;
-    min-width: 25%;
+    width: 320px;
+    height: 497px;
     border-radius: 1em;
 }
 
 img {
     display: block;
-    max-width: 100%;
+    width: 288px;
+    height: 288px;
     border-radius: 2em;
     margin-top: -3px;
 }
 
 h1 {
-    font-size: 17px;
+    font-size: 20px;
     margin-top: -20px;
     color: hsl(218, 44%, 22%);
+    text-align: center;
     /* line-height: 0.6; */
 }
 
 p {
-    font-size: 10px;
+    font-size: 15px;
     margin-top: -10px;
     color: hsl(220, 15%, 55%);
     text-align: center;
