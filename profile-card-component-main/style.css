@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+* {
+    background-image: url(./images/bg-pattern-top.svg);
+    align-items: center;
+}
+
+body {
+    font-family: "Muli", sans-serif;
+    font-size: 10x;
+}
+
+h1 {
+    font-size: 15px;
+}
+
+.box {
+    background: url(./images/bg-pattern-card.svg);
+    margin: 5px;
+    padding: 5px;
+}
+
+.box2 {
+    background-color: white;
+}
+
+img {
+    border-radius: 50em;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
