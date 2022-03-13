@@ -10,6 +10,7 @@ In this repository, you can find all the challenges I'm doing from the [Frontend
 
 - [QR Challenger](https://github.com/jacobo87/FrontendMentor/tree/main/qr-code-component-main)
 - [Order Summary Challenger](https://github.com/jacobo87/FrontendMentor/tree/main/order-summary-component-main)
+- [Profile Card](https://github.com/jacobo87/FrontendMentor/tree/main/profile-card-component-main)
 
 ### Solutions
 
