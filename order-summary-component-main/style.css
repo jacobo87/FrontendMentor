@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 * {
     margin: 10px;
     padding: 10px;
@@ -9,7 +9,7 @@
 
 body {
     background-color: hsl(212, 68%, 85%);
-    font-family: 'Outfit', sans-serif;
+    font-family: "Outfit", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,8 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 25%;
-    min-width: 25%;
+    max-width: 315px;
     border-radius: 1em;
 }
 
@@ -33,27 +32,42 @@ h1 {
 
 p {
     color: rgb(182, 179, 179);
-    font-size: 12px;
+    font-size: 15px;
     margin-top: -20px;
 }
 
 .box2 {
     background-color: hsl(0, 7%, 89%);
+    border-radius: 1em;
+    width: 200px;
+    height: 50px;
 }
 
 .box2 a {
     text-align: left;
 }
 
+.box2 img {}
+
 .Pay a {
     align-items: center;
     text-decoration: none;
+}
+
+button {
+    color: white;
+    background-color: rgb(57, 57, 185);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 1em;
 }
 
 button a {
     color: white;
     background-color: rgb(57, 57, 185);
     text-decoration: none;
+    padding: 10px 15px;
+    border: none;
 }
 
 img {
