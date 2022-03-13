@@ -41,13 +41,9 @@ p {
     border-radius: 1em;
     width: 200px;
     height: 50px;
+    display: flex;
+    position: relative;
 }
-
-.box2 a {
-    text-align: left;
-}
-
-.box2 img {}
 
 .Pay a {
     align-items: center;
@@ -73,7 +69,7 @@ button a {
 img {
     display: block;
     max-width: 100%;
-    border-radius: 2em;
+    border-radius: 2em 2em 0em 0em;
     margin-top: -20px;
 }
 
